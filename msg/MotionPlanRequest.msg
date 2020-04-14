@@ -43,3 +43,7 @@ float64 allowed_planning_time
 float64 max_velocity_scaling_factor
 float64 max_acceleration_scaling_factor
 
+# Optional parameter to specify how coarse / fine a time parameterization
+# plugin should work when setting up timesteps. Designed for the TOTG plugin
+# but could be useful for others.
+float64 time_optimization_timestep_time_sec
